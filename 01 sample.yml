@@ -1,5 +1,6 @@
-- name: Revanth
+- name: Revanth playbook
   hosts: all
   tasks:
-    - ansible.builtin.debug:
+    - name: printing message
+      ansible.builtin.debug:
         msg: hello world
