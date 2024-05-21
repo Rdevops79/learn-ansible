@@ -1,0 +1,5 @@
+- name: Revanth
+  hosts: all
+  tasks:
+    - ansible.builtin.debug:
+        msg: hello world
